@@ -17,6 +17,6 @@ Rails.application.routes.draw do
   post '/favorites', to: 'favorites#create'
   delete '/favorites', to: 'favorites#destroy'
 
-  #コメントへのルーティング
+
 
 end
