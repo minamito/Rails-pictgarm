@@ -47,9 +47,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-pproduction:
+production:
 <<: *default
 adapter: postgresql
 encoding: unicode
 pool: 5
-database:[あなたのアプリのデータベース名]
